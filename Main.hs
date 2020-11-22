@@ -108,7 +108,7 @@ cliOptions =
           $  long "ip"
           <> metavar "IP"
           <> help
-               "Target IP, defaults to 0.0.0.0. If set this supersedes the value in the conf file if set"
+               "Target IP, defaults to 0.0.0.0."
           )
     <*> optional
           (  option outputFormat
@@ -162,7 +162,6 @@ main = do
     Right settings -> do
       let targetIp' = maybe "0.0.0.0" T.pack (cliTargetIp cliOpts)
 
-      -- Split the sources in to buckets, remote http sources and local hosts files on disc
       let sources = Map.toAscList (configFileSource settings)
 
       httpManager <- newManager tlsManagerSettings
