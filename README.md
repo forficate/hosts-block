@@ -56,8 +56,7 @@ Usage: hosts --conf FILE [--ip IP] [-f|--format ARG]
 
 Available options:
   --conf FILE              Config file location
-  --ip IP                  Target IP, defaults to 0.0.0.0. If set this
-                           supersedes the value in the conf file if set
+  --ip IP                  Target IP, defaults to 0.0.0.0.
   -f,--format ARG          Output format. Valid values hosts|unbound. Defaults
                            to hosts if not set
   -h,--help                Show this help text
