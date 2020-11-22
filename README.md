@@ -67,6 +67,34 @@ Available options:
 $ hosts --conf sample-config.toml -f unbound > block.conf
 ```
 
+In your unbound config `/var/unbound/etc/unbound.conf` you can add the below line in the `server` block.
+```
+include: /path/to/block.conf
+```
+
+### Sample unbound output
+```
+local-zone: "0.0.0.0.creative.hpyrdr.com" redirect
+local-data: "0.0.0.0.creative.hpyrdr.com A 0.0.0.0"
+local-zone: "0.0.0.0.hpyrdr.com" redirect
+local-data: "0.0.0.0.hpyrdr.com A 0.0.0.0"
+local-zone: "0.nextyourcontent.com" redirect
+local-data: "0.nextyourcontent.com A 0.0.0.0"
+local-zone: "0.r.msn.com" redirect
+local-data: "0.r.msn.com A 0.0.0.0"
+```
+
+### Sample hosts output
+```
+0.0.0.0 0.0.0.0.creative.hpyrdr.com
+0.0.0.0 0.0.0.0.hpyrdr.com
+0.0.0.0 0.nextyourcontent.com
+0.0.0.0 0.r.msn.com
+0.0.0.0 000free.us
+0.0.0.0 000tristanprod.free.fr
+0.0.0.0 005.free-counter.co.uk
+0.0.0.0 006.free-counter.co.uk
+```
 
 ## Building from source
 You will need [cabal](https://github.com/haskell/cabal) installed. If you use [nix](https://github.com/NixOS/nix) you can use the provided `nix-shell`.
