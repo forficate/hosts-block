@@ -1,0 +1,134 @@
+[source]
+[source.badd-boyz-hosts]
+name = "Mitchell Krog's - Badd Boyz Hosts"
+description = "Sketchy domains and Bad Referrers from my Nginx and Apache Bad Bot and Spam Referrer Blockers"
+homeurl = "https://github.com/mitchellkrogza/Badd-Boyz-Hosts"
+issues = "https://github.com/mitchellkrogza/Badd-Boyz-Hosts/issues"
+url = "https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts"
+license = "MIT"
+
+[source.kad-hosts]
+name = "KADhosts"
+description = "Fraud/adware/scam websites."
+homeurl = "https://kadantiscam.netlify.com"
+issues = "https://github.com/PolishFiltersTeam/KADhosts/issues"
+url = "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts_without_controversies.txt"
+license = "CC BY-SA 4.0"
+
+[source.steve-black]
+name = "Steven Black's ad-hoc list"
+description = "Additional sketch domains as I come across them."
+homeurl = "https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts"
+issues = "https://github.com/StevenBlack/hosts/issues"
+url = "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts"
+license = "MIT"
+
+[source.unchecky-ads]
+name = "UncheckyAds"
+description = "Windows installers ads sources sites based on https://unchecky.com/ content."
+homeurl = "https://github.com/FadeMind/hosts.extras"
+issues = "https://github.com/FadeMind/hosts.extras/issues"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts"
+
+[source.ad-away]
+name = "AdAway"
+description = "AdAway is an open source ad blocker for Android using the hosts file."
+homeurl = "https://adaway.org/"
+issues = "https://github.com/AdAway/AdAway/issues"
+url = "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt"
+license = "CC BY 3.0"
+
+[source.add-2o7-net]
+name = "add.2o7Net"
+description = "2o7Net tracking sites based on [hostsfile.org](http://www.hostsfile.org/hosts.html) content."
+homeurl = "https://github.com/FadeMind/hosts.extras"
+issues = "https://github.com/FadeMind/hosts.extras/issues"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts"
+license = "GPLv3+"
+
+[source.add-dead]
+name = "add.Dead"
+description = "Dead sites based on [hostsfile.org](http://www.hostsfile.org/hosts.html) content."
+homeurl = "https://github.com/FadeMind/hosts.extras"
+issues = "https://github.com/FadeMind/hosts.extras/issues"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Dead/hosts"
+license = "GPLv3+"
+
+[source.add-risk]
+name = "add.Risk"
+description = "Risk content sites based on [hostsfile.org](http://www.hostsfile.org/hosts.html) content."
+homeurl = "https://github.com/FadeMind/hosts.extras"
+issues = "https://github.com/FadeMind/hosts.extras/issues"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts"
+license = "GPLv3+"
+
+[source.add-spam]
+name = "add.Spam"
+description = "Spam sites based on [hostsfile.org](http://www.hostsfile.org/hosts.html) content."
+homeurl = "https://github.com/FadeMind/hosts.extras"
+issues = "https://github.com/FadeMind/hosts.extras/issues"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts"
+license = "GPLv3+"
+
+[source.host-vn]
+name = "hostsVN"
+description = "Hosts block ads of Vietnamese"
+homeurl = "https://github.com/bigdargon/hostsVN"
+issues = "https://github.com/bigdargon/hostsVN/issues"
+url = "https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN"
+license = "MIT"
+
+[source.malwaredomainlist]
+name = "Malware Domain List"
+description = "Malware Domain List is a non-commercial community project."
+homeurl = "https://www.malwaredomainlist.com/"
+issues = "https://www.malwaredomainlist.com/contact.php"
+url = "https://www.malwaredomainlist.com/hostslist/hosts.txt"
+license = "'can be used for free by anyone'"
+
+[source.mvps-org]
+name = "MVPS hosts file"
+description = "The purpose of this site is to provide the user with a high quality custom HOSTS file."
+homeurl = "http://winhelp2002.mvps.org/"
+issues = "mailto:winhelp2002@gmail.com"
+url = "http://winhelp2002.mvps.org/hosts.txt"
+license = "CC BY-NC-SA 4.0"
+
+[source.someonewhocares-org]
+name = "Dan Pollock – [someonewhocares](https://someonewhocares.org)"
+description = "How to make the internet not suck (as much)."
+homeurl = "https://someonewhocares.org/hosts/"
+issues = "hosts@someonewhocares.org"
+url = "https://someonewhocares.org/hosts/zero/hosts"
+license = "non-commercial with attribution"
+
+[source.tiuxo]
+name = "Tiuxo hostlist - ads"
+description = "Categorized hosts files for DNS based content blocking"
+homeurl = "https://github.com/tiuxo/hosts"
+issues = "https://github.com/tiuxo/hosts/issues"
+url = "https://raw.githubusercontent.com/tiuxo/hosts/master/ads"
+license = "CC BY 4.0"
+
+[source.yoyo-org]
+name = "yoyo.org"
+description = "Blocking with ad server and tracking server hostnames."
+homeurl = "https://pgl.yoyo.org/adservers/"
+issues = "mailto:pgl@yoyo.org"
+url = "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0"
+
+[source.urlhause]
+name = "URLHaus"
+description = "A project from [abuse.ch](https://abuse.ch/) with the goal of sharing malicious URLs."
+homeurl = "https://urlhaus.abuse.ch/"
+issues = "mailto:cosntacptamem@abuse.ch" 
+url = "https://urlhaus.abuse.ch/downloads/hostfile/"
+license = "CC0" 
+
+[source.osing-digitalside-it]
+name = "osint.digitalside.it"
+description = "DigitalSide Threat-Intel malware domains list."
+homeurl = "https://github.com/davidonzo/Threat-Intel"
+issues = "https://github.com/davidonzo/Threat-Intel/issues"
+url = "https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestdomains.piHole.txt"
+license = "MIT"
